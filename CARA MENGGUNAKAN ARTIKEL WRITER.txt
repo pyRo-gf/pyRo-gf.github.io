@@ -1,0 +1,84 @@
+Langkah Langkah Cara menggunakan Article Writer :
+
+
+[1] Pastikan program ini berada satu folder dengan website tcg
+[2] Buka 'TCGArticleWriter.exe'
+[3] Pilih opsi :
+	1. Untuk membuat artikel baru
+	2. Untuk membuat profil baru
+
+Membuat Artikel
+[1] Masukkan Judul Artikel
+[2] Masukkan Penulis Artikel
+[3] Masukkan Thumbnail Artikel
+	Thumbnail merupakan gambar depan artikel
+	Gambar thumbnail harus berada dalam folder /img pada directory website tcg
+	Dimensi gambar harus 700x400 pixel
+	Gambar dapat berpentuk .jpg atau .png dll.
+	Tuliskan nama file gambar beserta dengan ekstensinya (contoh: ion.jpg)
+	Pastikan kembali file (contoh: ion.jpg) berada pada folder img
+
+[4] Terdapat 4 pilihan untuk membuat isi dari artikel, pilihan dipilih sesuai kebutuhan
+	a. Add Paragraf. 
+		Untuk menambahkan paragraf, tulis terlebih dahulu isi paragraf dalam bentuk .txt. 
+		Opsi ini hanya berlaku untuk satu paragraf saja.
+		Penulisan paragraf dalam bentuk teks biasa tidak perlu menggunakan atribut HTML.
+		Pastikan file paragraf berada satu folder dengan program.
+		Masukan nama file paragraf beserta dengan ekstensinya (contoh : paragraf1.txt)
+
+	b. Add Image
+		Pastikan gambar yang akan dimasukan kedalam artikel berada dalam folder /img pada directory website tcg.
+		Gambar thumbnail dapat digunakan kembali
+		Ekstensi gambar berupa .jpg .png .gif dll.
+		Masukan nama file gambar beserta dengan ekstensinya (contoh: ion.jpg)
+	
+	c. Add Video
+		Pastikan video yang akan dimasukan kedalam artikel berada dalam folder /vid pada directory website tcg.
+		Ekstensi video harus berupa .mp4
+		Masukkan nama file beserta dengan ekstensinya (contoh: video1.mp4)
+
+	d. Embed Youtube URL
+		Untuk memasukan atau mengembed video dari youtube.
+		Kode embed bisa didapat dari video youtube dengan cara mengklik kiri pada video kemudian memilih 'copy embed code'
+		Kode dapat di paste kedalam cmd/console.
+		Contoh kode embed : '<iframe width="1519" height="594" src="https://www.youtube.com/embed/HeKX4BXgEu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+	e. Finish Articel
+		Apabila penulisan artikel telah selesai
+
+[5] Setelah memilih opsi finish, maka akan dihasilkan file baru berupa "a_judulartikel.html" dan "Article Block.txt" 
+[6] File "a_judulartikel.html" dapat dibuka menggunakan browser
+[7] Untuk memberi link pada artikel baru, salin isi dari "Article Block.txt"
+[8] Buka file "research.html", tempel/paste data dibawah bagian "Article Block End"
+[9] Apabila artikel ingin ditampilkan pada index website (latest research), maka buka file index.html, kemudian timpa salah satu Article Blok.
+    Pada bagian latest research, hanya bisa memuat 3 article block
+
+
+Membuat Profil Baru
+[1] Masukkan nama lengkap
+[2] Masukkan nama file foto (contoh: jaka.jpg)
+	Pastikan file foto berada dalam folder /img pada directory website tcg.
+	Dimensi foto harus 362x241 pixel
+[3] Masukkan Jabatan (contoh: Student/Head of TCG)
+[4] Masukkan jumlah minat penelitian yang akan dimasukkan kedalam profil (1-100), kemudian masukkan minat penelitian
+[5] Masukkan alamat email
+[6] Kemudian program akan selesai menuliskan profil, dan akan dihasilkan file baru berupa "p_nama.html" dan "Staff Block.txt"
+[7] File "p_nama.html" dapat dibuka menggunakan browser
+[8] Untuk memberi link pada profil baru, salin isi dari "Staff Block.txt"
+[9] Buka file "staff.html", tempel/paste data dibawah bagian "Staff Block End"
+[10] Apabila artikel ingin ditampilkan pada index website (staffs), maka buka file index.html, kemudian timpa salah satu Staff Blok.
+    Pada bagian staffs, hanya bisa memuat 4 staff block
+
+
+
+Apabila Terjadi error, cek kembali apakan nama file yang dituliskan sudah sesuai, dan sudah berada pada direktori website tcg.
+Apabila melakukan kesalahan saat penulisan, file 'a_judulartikel.html' dan 'p_nama.html' dapat dihapus/didelete
+
+
+
+	
+	
+
+
+		
+		
